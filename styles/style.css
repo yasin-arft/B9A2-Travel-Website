@@ -1,0 +1,17 @@
+/* variables */
+
+:root {
+  --primary-color: #ff5400;
+  ---secondary-color: #131318;
+  --text: #5a5a5d;
+  --text-light: rgba(19, 19, 24, 0.70);
+  --white: #fff;
+}
+
+/* defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
