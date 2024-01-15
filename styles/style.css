@@ -24,6 +24,10 @@ footer {
   margin: auto;
 }
 
+main section {
+  margin-top: 100px;
+}
+
 /* reusable */
 
 .btn-primary {
@@ -34,6 +38,7 @@ footer {
   outline: 0;
   border-radius: 8px;
   text-align: center;
+  text-transform: capitalize;
   font-size: 20px;
   font-weight: 800;
   cursor: pointer;
@@ -103,4 +108,45 @@ input::placeholder {
 
 .find-form svg {
   cursor: pointer;
+}
+
+/* popular tour section */
+
+.popular-tour {
+  display: flex;
+  gap: 50px;
+}
+
+.popular-tour>div {
+  flex: 1;
+}
+
+.section-title {
+  color: var(---secondary-color);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-desc {
+  color: var(--text-light);
+  padding: 24px 0;
+  line-height: 26px;
+}
+
+.popular-tour-info ul {
+  padding: 16px;
+}
+
+.popular-tour-info ul li {
+  padding: 8px 0;
+}
+
+.popular-tour-img {
+  border-radius: 16px;
+}
+
+.popular-tour-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
