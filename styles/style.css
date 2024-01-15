@@ -44,7 +44,8 @@ footer {
 .banner {
   background-image: linear-gradient(to bottom, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-bg.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   color: var(--white);
   padding: 100px 180px;
   text-align: center;
