@@ -28,6 +28,18 @@ main section {
   margin-top: 100px;
 }
 
+.section-title {
+  color: var(---secondary-color);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-desc {
+  color: var(--text-light);
+  padding: 24px 0;
+  line-height: 26px;
+}
+
 /* reusable */
 
 .btn-primary {
@@ -121,24 +133,16 @@ input::placeholder {
   flex: 1;
 }
 
-.section-title {
-  color: var(---secondary-color);
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.section-desc {
-  color: var(--text-light);
-  padding: 24px 0;
-  line-height: 26px;
-}
-
 .popular-tour-info ul {
   padding: 16px;
 }
 
 .popular-tour-info ul li {
   padding: 8px 0;
+}
+
+.popular-tour-info button {
+  margin: 8px 0;
 }
 
 .popular-tour-img {
