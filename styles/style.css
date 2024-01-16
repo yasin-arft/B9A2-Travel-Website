@@ -354,3 +354,42 @@ input::placeholder {
   font-size: 32px;
   font-weight: 800;
 }
+
+/* footer section */
+
+footer {
+  margin: 100px auto;
+  text-align: center;
+  padding: 0 200px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo h2 {
+  color: var(---secondary-color);
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.logo h2 .highlight {
+  color: var(--primary-color);
+}
+
+.right-info {
+  color: var(---secondary-color);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+}
