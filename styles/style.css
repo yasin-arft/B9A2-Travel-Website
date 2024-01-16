@@ -387,6 +387,24 @@ footer {
   color: var(--primary-color);
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 16px 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(---secondary-color);
+  font-size: 24px;
+  
+}
+
+footer .divider {
+  margin: 50px 0;
+}
+
 .right-info {
   color: var(---secondary-color);
   font-family: Inter;
