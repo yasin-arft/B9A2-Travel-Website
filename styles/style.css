@@ -154,3 +154,57 @@ input::placeholder {
   height: 100%;
   object-fit: contain;
 }
+
+/* destination section */
+
+.destination-info {
+  text-align: center;
+  padding: 0 260px 24px;
+}
+
+.destination-locations {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.destination-locations .item img {
+  width: 100%;
+}
+
+.maldives,
+.indonesia {
+  grid-column: span 6;
+}
+
+.srilanka {
+  grid-column: span 4;
+}
+
+.north-america {
+  grid-column: span 5;
+}
+
+.kashmir {
+  grid-column: span 3;
+}
+
+.bangladesh {
+  grid-column: span 5;
+}
+
+.bandarban {
+  grid-column: span 7;
+}
+
+.destination-locations .item {
+  border-radius: 16px;
+  background-image: linear-gradient(to top, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+.destination-locations .item h3 {
+  color: var(--white);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
