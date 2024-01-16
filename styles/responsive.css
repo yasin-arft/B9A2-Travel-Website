@@ -37,6 +37,7 @@
   .find-form,
   .popular-tour,
   .why-choose-us .card-container,
+  .customer-support,
   .newsletter {
     flex-direction: column;
     gap: 16px;

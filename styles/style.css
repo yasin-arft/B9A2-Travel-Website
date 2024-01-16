@@ -343,6 +343,23 @@ input::placeholder {
   line-height: 26px;
 }
 
+/* customer support section */
+
+.customer-support {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.customer-support>div {
+  flex: 1;
+}
+
+.customer-support-img img {
+  width: 100%;
+  border-radius: 16px;
+}
+
 /* newsletter section */
 
 .newsletter {
@@ -393,6 +410,7 @@ input::placeholder {
 }
 
 .newsletter-img img {
+  border-radius: 16px;
   width: 100%;
   height: 100%;
 }
