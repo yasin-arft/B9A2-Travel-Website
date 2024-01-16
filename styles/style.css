@@ -199,7 +199,7 @@ input::placeholder {
   font-weight: 700;
 }
 
-.find-form:hover .btn-primary {
+.find-form .btn-primary:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
@@ -225,6 +225,10 @@ input::placeholder {
 
 .popular-tour-info ul li {
   padding: 8px 0;
+}
+
+.popular-tour-info .section-desc .deep {
+  color: var(--text);
 }
 
 .popular-tour-info button {
