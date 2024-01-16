@@ -21,12 +21,37 @@
     padding: 16px 0;
   }
 
+  .logo {
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 28px;
+  }
+
+  .logo h2 {
+    font-size: 22px;
+  }
+
+
   .find-form,
   .popular-tour,
   .why-choose-us .card-container,
   .newsletter {
     flex-direction: column;
     gap: 16px;
+  }
+
+  nav {
+    padding: 20px 0;
+  }
+
+  nav .options {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
   }
 
   .banner {
@@ -109,20 +134,10 @@
     padding: 0 24px;
   }
 
-  .logo {
-    gap: 10px;
-  }
-
-  .logo img {
-    width: 28px;
-  }
-
-  .logo h2 {
-    font-size: 22px;
-  }
   .social-links {
     padding-top: 0;
   }
+
   footer .divider {
     margin: 0;
     margin-bottom: 16px;

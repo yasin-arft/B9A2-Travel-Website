@@ -128,6 +128,15 @@ nav .options li.active a {
   color: var(--primary-color);
 }
 
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu-icon i {
+  font-size: 24px;
+  color: var(---secondary-color);
+}
+
 /* banner section */
 
 .banner {
