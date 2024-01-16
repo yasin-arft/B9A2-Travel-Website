@@ -23,7 +23,8 @@
 
   .find-form,
   .popular-tour,
-  .why-choose-us .card-container {
+  .why-choose-us .card-container,
+  .newsletter {
     flex-direction: column;
     gap: 16px;
   }
@@ -84,6 +85,23 @@
 
   .why-choose-us .card-desc {
     font-size: 14px;
+  }
+
+  .newsletter-img img {
+    height: 300px;
+  }
+
+  .newsletter-img .badge {
+    padding: 16px 24px;
+
+  }
+
+  .newsletter-img .b.badge .web-address {
+    font-size: 16px;
+  }
+
+  .newsletter-img .badge .discount-details {
+    font-size: 22px;
   }
 
 }
