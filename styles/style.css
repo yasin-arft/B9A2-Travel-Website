@@ -28,18 +28,6 @@ main section {
   margin-top: 100px;
 }
 
-.section-title {
-  color: var(---secondary-color);
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.section-desc {
-  color: var(--text-light);
-  padding: 24px 0;
-  line-height: 26px;
-}
-
 /* reusable */
 
 .btn-primary {
@@ -54,6 +42,25 @@ main section {
   font-size: 20px;
   font-weight: 800;
   cursor: pointer;
+}
+
+.section-title {
+  color: var(---secondary-color);
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.section-desc {
+  color: var(--text-light);
+  padding: 24px 0;
+  line-height: 26px;
+}
+
+.destination-info,
+.why-choose-us-info {
+  text-align: center;
+  padding: 0 260px 24px;
 }
 
 /* banner section */
@@ -157,11 +164,6 @@ input::placeholder {
 
 /* destination section */
 
-.destination-info {
-  text-align: center;
-  padding: 0 260px 24px;
-}
-
 .destination-locations {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -221,4 +223,39 @@ input::placeholder {
   text-align: center;
   font-size: 28px;
   font-weight: 800;
+}
+
+/* why choose us section */
+
+.why-choose-us .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.why-choose-us .card {
+  width: calc((100% - 24px) / 2);
+  background-color: rgba(41, 206, 246, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  padding: 32px;
+}
+
+.why-choose-us .card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.why-choose-us .card-title {
+  color: var(---secondary-color);
+  padding: 16px 0;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.why-choose-us .card-desc {
+  color: var(--text);
+  line-height: 26px;
 }

@@ -22,7 +22,8 @@
   }
 
   .find-form,
-  .popular-tour {
+  .popular-tour,
+  .why-choose-us .card-container {
     flex-direction: column;
     gap: 16px;
   }
@@ -40,7 +41,8 @@
     padding: 8px 0;
   }
 
-  .find-form .field {
+  .find-form .field,
+  .why-choose-us .card {
     width: 100%;
   }
 
@@ -48,7 +50,8 @@
     justify-content: center;
   }
 
-  .destination-info {
+  .destination-info,
+  .why-choose-us-info {
     text-align: center;
     padding: 0 13px;
   }
@@ -58,6 +61,7 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 16px;
   }
+
   .destination-locations .item {
     grid-column: span 1;
   }
@@ -66,5 +70,20 @@
     font-size: 20px;
     font-weight: 800;
   }
-  
+
+  .why-choose-us .card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+
+  .why-choose-us .card-title {
+    padding: 8px 0;
+    font-size: 20px;
+  }
+
+  .why-choose-us .card-desc {
+    font-size: 14px;
+  }
+
 }
