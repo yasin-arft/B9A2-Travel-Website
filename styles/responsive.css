@@ -93,7 +93,7 @@
 
   .newsletter-img .badge {
     padding: 16px 24px;
-
+    right: -16px;
   }
 
   .newsletter-img .b.badge .web-address {
@@ -104,4 +104,27 @@
     font-size: 22px;
   }
 
+  footer {
+    margin: 32px auto;
+    padding: 0 24px;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 28px;
+  }
+
+  .logo h2 {
+    font-size: 22px;
+  }
+  .social-links {
+    padding-top: 0;
+  }
+  footer .divider {
+    margin: 0;
+    margin-bottom: 16px;
+  }
 }
